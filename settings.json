@@ -1,0 +1,156 @@
+{
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    "window.autoDetectColorScheme": false,
+    "window.newWindowProfile": "Default",
+
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    "editor.renderWhitespace": "all",
+    "editor.suggestSelection": "first",
+    "editor.accessibilitySupport": "off",
+    "editor.guides.bracketPairs": false,
+    "editor.minimap.enabled": false,
+    "editor.glyphMargin": false,
+    "editor.folding": true,
+    "editor.lightbulb.enabled": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "line",
+    "editor.experimental.asyncTokenization": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    },
+    "editor.fontFamily": "Martian Mono, Fira Code",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    "editor.fontWeight": "400",
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+
+    "workbench.activityBar.orientation": "vertical",
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.tips.enabled": false,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.fontAliasing": "auto",
+    "workbench.preferredDarkColorTheme": "GitHub Dark",
+    "workbench.preferredLightColorTheme": "GitHub Light",
+    "workbench.colorTheme": "GitHub Dark",
+
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+
+    "security.workspace.trust.untrustedFiles": "prompt",
+
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true
+    },
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/.git/**": true,
+        "**/dist/**": true,
+        "**/build/**": true,
+        "**/.next/**": true,
+        "**/out/**": true,
+        "**/.turbo/**": true,
+        "**/.cache/**": true,
+        "**/.parcel-cache/**": true,
+        "**/.yarn/**": true,
+        "**/.pnpm/**": true,
+        "**/coverage/**": true
+    },
+    "files.associations": {
+        "*.ts": "typescript",
+        ".stylelintrc": "json",
+        ".posthtmlrc": "json",
+        "*.css": "css"
+    },
+
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/.next": true,
+        "**/out": true,
+        "**/.turbo": true,
+        "**/.cache": true,
+        "**/.parcel-cache": true,
+        "**/.yarn": true,
+        "**/.pnpm": true,
+        "**/coverage": true
+    },
+
+    "extensions.autoUpdate": false,
+    "extensions.ignoreRecommendations": true,
+
+    "git.suggestSmartCommit": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.openRepositoryInParentFolders": "never",
+    "git.ignoreRebaseWarning": true,
+
+    "eslint.lintTask.enable": true,
+    "eslint.nodeEnv": "",
+    "eslint.problems.shortenToSingleLine": true,
+
+    "emmet.triggerExpansionOnTab": true,
+
+    "redhat.telemetry.enabled": false,
+
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 200,
+    "prettier.singleQuote": true,
+    "prettier.semi": false,
+
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.statusBar.enabled": false,
+    "gitlens.advanced.fileHistoryShowAllBranches": true,
+
+    "tailwindCSS.emmetCompletions": true,
+
+    "workbench.editor.enablePreview": false,
+
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.suggest.completeFunctionCalls": true,
+
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "typescript.tsserver.maxTsServerMemory": 4096,
+
+    "css.validate": false,
+    "css.lint.unknownAtRules": "ignore",
+
+    "less.validate": false,
+    "scss.validate": false,
+
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontSize": 14,
+
+    "claudeCode.hideOnboarding": true,
+    "claudeCode.initialPermissionMode": "acceptEdits",
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.useTerminal": true,
+
+    "chat.agentsControl.enabled": false,
+    "chat.mcp.gallery.enabled": false,
+
+    "cursor.composer.usageSummaryDisplay": "always",
+    "cursor.general.enableShadowWorkspace": true,
+    "cursor.composer.textSizeScale": 1.15
+}
