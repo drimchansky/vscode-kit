@@ -1,5 +1,5 @@
 {
-    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    "window.title": "${rootName}${separator}${activeEditorMedium}",
     "window.autoDetectColorScheme": false,
     "window.newWindowProfile": "Default",
 
@@ -30,6 +30,7 @@
     "editor.wordWrap": "on",
     "editor.unicodeHighlight.ambiguousCharacters": false,
 
+    "editor.inlineSuggest.enabled": false,
     "workbench.activityBar.orientation": "vertical",
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.tips.enabled": false,
@@ -38,6 +39,9 @@
     "workbench.preferredDarkColorTheme": "GitHub Dark",
     "workbench.preferredLightColorTheme": "GitHub Light",
     "workbench.colorTheme": "GitHub Dark",
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.editor.enablePreview": false,
 
     "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
@@ -119,9 +123,21 @@
     "gitlens.statusBar.enabled": false,
     "gitlens.advanced.fileHistoryShowAllBranches": true,
 
-    "tailwindCSS.emmetCompletions": true,
+    "gitlens.views.scm.grouped.views": {
+        "commits": true,
+        "branches": true,
+        "remotes": true,
+        "stashes": true,
+        "tags": true,
+        "worktrees": true,
+        "contributors": true,
+        "fileHistory": true,
+        "repositories": true,
+        "searchAndCompare": false,
+        "launchpad": false
+    },
 
-    "workbench.editor.enablePreview": false,
+    "tailwindCSS.emmetCompletions": true,
 
     "javascript.preferences.quoteStyle": "single",
     "javascript.suggest.completeFunctionCalls": true,
@@ -138,6 +154,14 @@
     "less.validate": false,
     "scss.validate": false,
 
+    "json.schemaDownload.trustedDomains": {
+        "https://schemastore.azurewebsites.net/": true,
+        "https://raw.githubusercontent.com/": true,
+        "https://www.schemastore.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://json-schema.org/": true,
+        "https://biomejs.dev": true
+    },
     "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.fontSize": 14,
 
