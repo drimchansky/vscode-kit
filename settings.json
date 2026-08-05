@@ -2,6 +2,7 @@
     "window.title": "${rootName}${separator}${activeEditorMedium}",
     "window.autoDetectColorScheme": false,
     "window.newWindowProfile": "Default",
+    "window.restoreWindows": "none",
 
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
